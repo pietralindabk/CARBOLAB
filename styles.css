@@ -6,11 +6,126 @@
   font-family: "Noto Sans", sans-serif;
 }
 
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-shadow: 0px 0px 10px #27ff32;
+    }
+    nav a{
+        text-decoration: none;
+        color: #222;
+        cursor: pointer;
+        transition: all 0.5s;
+        border-bottom: 3px solid transparent;
+        font-size: 13pt;
+    }
+
+    #sectM{
+        border: 1px solid #4ece78;
+    }
+
+    .botões{
+        position: absolute;
+        z-index: 1;
+        justify-items: center;
+        display: flex;
+        margin-left: 3vw;
+        margin-top: 65vh;
+        gap: 3vw;
+        font-size: 18pt;
+        background-color: transparent;
+        color: black;
+    }
+
+    .BLC{
+        border: 1px solid #4ece78;
+        border-radius: 10px;
+        transition: all 1s;
+        margin: 20px;
+        font-size: 9pt;
+        text-align: center;
+        justify-items: center;
+        background-color: #222;
+        color: rgb(255, 255, 255);
+        padding: 50px;
+    }
+    #ia, #livro, #teste, #desemp{
+        height: 14vh;
+        width: auto;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .como{
+        align-items: center;
+        text-align: center;
+        border-radius: 20px;
+        transition: all 1s;
+        margin: 20px;
+        font-size: 10pt;
+        text-align: center;
+        border: 1px solid #46e460;
+        background-color: #222;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+    }
+
+    #criar{
+        border: 1px solid #000000;
+        background-color: white;
+        border-radius: 14px;
+        height: 10vh;
+        width: auto;
+    }
+
+    .funciona{
+        background-color: white;
+        border-radius: 12px;
+        height: 10vh;
+        width: auto;
+    }
+
+    #sect{
+        display: flex;
+        background-color: #f5fff6; 
+        padding: 70px;
+        border-radius: 20px;
+        border: 1px solid #46e460;
+    }
+
+
+    #sect2{
+        background-color: #f5fff6; 
+        margin: 50px;
+        display: flex;
+        border-radius: 20px; 
+        border: 1px solid #46e460; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+
+}
+button#dark-mode-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+button#dark-mode-toggle i {
+    font-size: 24px;
+    
+}
+
 body {
   background: white;
   color: black;
   margin: 0px;
   padding: 0px;
+  transition: background-color 0.6s, color 0.6s;
 }
 /*  SITE ACIMA  */
 
@@ -20,6 +135,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-shadow: 0px 0px 2px #27ff32;
 }
 
 nav{
@@ -107,7 +223,7 @@ nav a:hover{
 
 /*  MAIN ABAIXO  */
 section{
-    background-color: #ffffff;
+    background-color: transparent;
     margin: 50px;
 }
 
@@ -183,6 +299,7 @@ section #fundo{
 
 #sect{
     display: flex;
+    border-radius: 20px;
     background-color: #f5fff6; 
     padding: 70px; 
     border: 1px solid black;
@@ -228,7 +345,8 @@ section #fundo{
 #sect2{
     background-color: #f5fff6; 
     margin: 50px;
-    display: flex; 
+    display: flex;
+    border-radius: 20px; 
     border: 1px solid black; 
     align-items: center; 
     text-align: center; 
