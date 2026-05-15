@@ -1,0 +1,1136 @@
+/*  SITE ABAIXO  */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background: white;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+/*  SITE ACIMA  */
+
+
+/*  HEADER ABAIXO */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    margin-left: 10vw;
+    gap: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-bottom: 3px solid transparent;
+    font-size: 13pt;
+}
+
+nav a:hover{
+    border-bottom: 3px solid #4ece78;
+    transition: all 0.5s;
+    transform: scale(1.04);
+}
+
+.logo{
+    width: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.log{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#perfil{
+    color: white;
+    width: auto;
+    height: 55px;
+    flex-shrink: 0; 
+    transition: all 0.5s;  
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+#perfil:hover{
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px #53d85a;
+    transition: all 0.5s;   
+}
+
+.btn2{
+    flex-shrink: 0;
+    font-size: 15px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #46e460;
+    padding: 10px 20px;
+    text-align: center;
+    transition: all 1s;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    transition: all 1s;
+    transform: translateY(-1px);
+    background-color: #f5fff6;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px #53d85a;
+}
+
+#H1{
+    width: 100%;
+    font-size: 16pt;
+    background: #567e89;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+/*  HEADER ACIMA */
+
+
+
+/*  MAIN ABAIXO  */
+section{
+    background-color: #ffffff;
+    margin: 50px;
+}
+
+section #fundo{
+    border: 1px solid #567e89;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.TX{
+    position: absolute;
+    font-size: 23pt;
+    margin: 20vh 3vw;
+    z-index: 1;
+    color: #2f4741;
+}
+
+#chat{
+    position: absolute;
+    width: 32vw;
+    max-width: 55vw;
+    height: auto;
+    margin: 12vh 55vw;
+    border-radius: 40px;
+    border: 2px solid #000000;
+    z-index: 1;
+}
+
+.botões{
+    position: absolute;
+    z-index: 1;
+    justify-items: center;
+    display: flex;
+    margin-left: 3vw;
+    margin-top: 65vh;
+    gap: 3vw;
+    font-size: 18pt;
+    background-color: transparent;
+}
+
+.btn{
+    border-radius: 12px;
+    padding: 2vh 10px;
+    max-width: 22vw;
+    min-width: 20vw;
+    height: auto;
+    background-color: #4ece78;
+    text-align: center;
+    transition: all 1s;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 50px #4ece78;
+    transition: 0.5s;
+}
+/*  MAIN ACIMA  */
+
+
+/*  MAIN (2) ABAIXO  */
+.BLC{
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 1s;
+    margin: 20px;
+    font-size: 9pt;
+    text-align: center;
+    justify-items: center;
+    background-color: white;
+    color: black;
+    padding: 50px;
+}
+
+#sect{
+    display: flex;
+    background-color: #f5fff6; 
+    padding: 70px; 
+    border: 1px solid black;
+}
+
+.BLC:hover{
+    box-shadow: 0px 0px 20px #4ece78;
+    transition: all 0.7s;
+    transform: scale(1.03);
+    font-size: 11pt;
+}
+
+#ia, #livro, #teste, #desemp{
+    height: 14vh;
+    width: auto;
+}
+/*  MAIN (2) ACIMA  */
+
+
+/*  MAIN (3) ABAIXO */
+.como{
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 1s;
+    margin: 20px;
+    font-size: 10pt;
+    text-align: center;
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+}
+
+#criar{
+    border: 1px solid #000000;
+    background-color: white;
+    border-radius: 12px;
+    height: 10vh;
+    width: auto;
+}
+
+#sect2{
+    background-color: #f5fff6; 
+    margin: 50px;
+    display: flex; 
+    border: 1px solid black; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.sect2h1{
+    border-bottom: 2px solid #adff2f; 
+    color: #48756b; 
+    margin-left: 10px; 
+    font-size: 20pt
+}
+
+.funciona{
+    background-color: white;
+    height: 10vh;
+    width: auto;
+}
+
+#progresso{
+    background-color: white;
+    height: 10vh;
+    width: auto;
+    border: 1px solid black;
+}
+/*  MAIN (3) ACIMA */
+
+
+/*  RODAPÉ ABAIXO */
+footer{
+    justify-content: space-around;
+    display: flex;
+    gap: 200px;
+    padding: 40px; 
+    background-color: #567e89;
+    color: white;
+}
+
+.logof{
+    width: 8vh;
+    display: flex;
+    margin-top: -5vh;
+    align-items: center;
+    
+}
+
+#insta, #yt, #email{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 80px;
+    border: 1px solid #4ece78;
+    background-color: #fffaf0;
+    transition: all 0.5s;
+}
+
+#insta{
+    margin-left: 6vw;
+    padding: 2px;
+}
+
+#yt{
+    margin-left: 9vw;
+}
+
+#email{
+    margin-left: 12vw;
+    padding: 1px;
+}
+
+#insta:hover, #yt:hover, #email:hover{
+    box-shadow: 0px 0px 20px #4ece78;
+    transition: all 0.5s;
+}
+
+.opc{
+    margin-left: 20px; 
+    color: #5cce6f;
+    cursor: pointer;
+}
+
+.opc:hover{
+    color: #27ff32;
+}
+/*  RODAPÉ ACIMA */
+
+@media (max-width: 1366px){
+    .TX{
+        position: absolute;
+        font-size: 20pt;
+        margin: 22vh 3vw;
+        z-index: 1;
+        color: #2f4741;        
+    }
+
+    .botões{
+        position: absolute;
+        z-index: 1;
+        justify-items: center;
+        display: flex;
+        margin-left: 3vw;
+        margin-top: 62vh;
+        gap: 3vw;
+        font-size: 18pt;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 1024px){
+    .TX{
+        position: absolute;
+        font-size: 15pt;
+        margin: 8vh 3vw;
+        z-index: 1;
+        color: rgb(47, 71, 65);
+    }
+    #chat{
+        position: absolute;
+        width: 30vw;
+        height: auto;
+        margin: 5vh 57vw;
+        border-radius: 40px;
+        border: 2px solid rgb(0, 0, 0);
+        z-index: 1;
+    }
+
+    .botões{
+        position: absolute;
+        justify-items: center;
+        display: flex;
+        z-index: 1;
+        margin-left: 3vw;
+        margin-top: 25vh;
+        gap: 3vw;
+        font-size: 10pt;
+        background-color: transparent;
+    }
+
+    .btn{
+        border-radius: 12px;
+        padding: 1vh 10px;
+        background-color: rgb(92, 206, 111);
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    .btn:hover{
+        box-shadow: 0px 0px 50px rgb(39, 255, 50);
+        transition: 0.5s;
+    }
+    /*Main do chat*/
+
+
+    /*Main dos itens*/
+    .BLC{
+        border: 1px solid black;
+        border-radius: 10px;
+        transition: all 1s;
+        margin: 10px;
+        font-size: 10pt;
+        text-align: center;
+        background-color: white;
+        color: black;
+        width: 45%;
+    }
+
+    #sect{
+        flex-wrap: wrap;
+        background-color: #f5fff6; 
+        padding: 10px; 
+        border: 1px solid black;
+    }
+
+    #ia, #livro, #teste, #desemp{
+        height: auto;
+        width: 6vw;
+    }
+    /*Main dos itens*/
+
+    /*Main dos CF*/
+    #sect2{
+        flex-wrap: wrap;
+        background-color: #f5fff6; 
+        border: 1px solid black;
+        gap: 5px;
+    }
+
+    .sect2h1{
+        border-bottom: 2px solid greenyellow; 
+        color: rgb(72, 117, 107); 
+        justify-items: center;
+        font-size: 22pt;
+        height: auto;
+    }
+
+    .como{
+        width: 40%;
+        border-radius: 10px;
+        transition: all 1s;
+        gap: 10px;
+        font-size: 10pt;
+        border: 1px solid black;
+        background-color: transparent;
+        color: black;
+        height: auto;
+    }
+
+    .funciona{
+        background-color: white;
+        width: 20%;
+        height: auto;
+    }
+
+    #criar{
+        border: 1px solid rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 12px;
+        width: 20%;
+        height: auto;
+    }
+
+    #progresso{
+        background-color: white;
+        height: 1vh;
+        width: auto;
+        border: 1px solid black;
+        width: 20%;
+        height: auto;
+    }
+    /*Main dos CF*/
+
+    header nav, .btn2{
+        display: none;
+    }
+
+    #perfil{
+        margin-right: 50px;
+    }
+
+        footer{
+        justify-content: space-around;
+        display: flex;
+        gap: 20px;
+        padding: 30px; 
+        background-color: #567e89;
+        color: white;
+    }
+
+    .logof{
+        width: 2vw;
+        display: flex;
+        margin-top: -5vh;
+        align-items: center;
+        
+    }
+
+    #folha{
+        width: 60px;
+        margin-left: -12px;
+        margin-top: 50px;
+    }
+
+    footer h1{
+        visibility: hidden;
+    }
+
+    #insta, #yt, #email{
+        display: none;
+    }
+}
+
+/* PC 
+@media (min-width: 1280px){
+    /*Main do Chat*/
+    /*.TX{
+        position: absolute;
+        font-size: 20pt;
+        margin: 18vh 3vw;
+        z-index: 1;
+        color: rgb(47, 71, 65);
+    }
+    #chat{
+        position: absolute;
+        width: 30vw;
+        height: auto;
+        margin: 12vh 56vw;
+        border-radius: 40px;
+        border: 2px solid rgb(0, 0, 0);
+        z-index: 1;
+    }
+    .botões{
+        position: absolute;
+        justify-items: center;
+        display: flex;
+        z-index: 1;
+        margin-left: 3vw;
+        margin-top: 55vh;
+        gap: 3vw;
+        font-size: 15pt;
+        background-color: transparent;
+    }
+    .btn{
+        border-radius: 12px;
+        padding: 3vh 10px;
+        background-color: rgb(92, 206, 111);
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    .btn:hover{
+        box-shadow: 0px 0px 50px rgb(39, 255, 50);
+        transition: 0.5s;
+    }
+    /*Main do chat*/
+
+
+    /*Main dos itens*/
+    /*.BLC{
+        border: 1px solid black;
+        border-radius: 10px;
+        transition: all 1s;
+        margin: 10px;
+        font-size: 10pt;
+        text-align: center;
+        background-color: white;
+        color: black;
+        width: 45%;
+    }
+
+    #sect{
+        flex-wrap: wrap;
+        background-color: #f5fff6; 
+        padding: 10px; 
+        border: 1px solid black;
+    }
+
+    #ia, #livro, #teste, #desemp{
+        height: auto;
+        width: 6vw;
+    }
+    /*Main dos itens*/
+
+    /*Main dos CF*/
+    /*#sect2{
+        flex-wrap: wrap;
+        background-color: #f5fff6; 
+        border: 1px solid black;
+        gap: 5px;
+    }
+
+    .sect2h1{
+        border-bottom: 2px solid greenyellow; 
+        color: rgb(72, 117, 107); 
+        justify-items: center;
+        font-size: 15pt;
+        height: auto;
+    }
+
+    .como{
+        width: 40%;
+        border-radius: 10px;
+        transition: all 1s;
+        gap: 10px;
+        font-size: 10pt;
+        border: 1px solid black;
+        background-color: transparent;
+        color: black;
+        height: auto;
+    }
+
+    .funciona{
+        background-color: white;
+        width: 20%;
+        height: auto;
+    }
+
+    #criar{
+        border: 1px solid rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 12px;
+        width: 20%;
+        height: auto;
+    }
+
+    #progresso{
+        background-color: white;
+        height: 1vh;
+        width: auto;
+        border: 1px solid black;
+        width: 20%;
+        height: auto;
+    }
+    /*Main dos CF*//*
+}
+*/
+
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 850px){
+    /*Main do Chat*/
+    .TX{
+        position: absolute;
+        font-size: 10pt;
+        margin: 8vh 3vw;
+        z-index: 1;
+        color: rgb(47, 71, 65);
+    }
+    #chat{
+        position: absolute;
+        width: 30vw;
+        max-width: 55vw;
+        height: auto;
+        margin: 4vh 53vw;
+        border-radius: 40px;
+        border: 2px solid rgb(0, 0, 0);
+        z-index: 1;
+    }
+
+    .botões{
+        position: absolute;
+        justify-items: center;
+        display: flex;
+        z-index: 1;
+        margin-left: 3vw;
+        margin-top: 32%;
+        gap: 3vw;
+        font-size: 10pt;
+        background-color: transparent;
+    }
+
+    .btn{
+        border-radius: 12px;
+        padding: 1vh 10px;
+        background-color: rgb(92, 206, 111);
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    .btn:hover{
+        box-shadow: 0px 0px 20px rgb(39, 255, 50);
+        transition: 0.5s;
+    }
+    /*Main do chat*/
+
+
+    /*Main dos itens*/
+    .BLC{
+        border: 1px solid black;
+        border-radius: 10px;
+        transition: all 1s;
+        margin: 10px;
+        font-size: 10pt;
+        text-align: center;
+        background-color: white;
+        color: black;
+        width: 45%;
+    }
+
+    #sect{
+        flex-wrap: wrap;
+        background-color: #f5fff6; 
+        padding: 10px; 
+        border: 1px solid black;
+    }
+
+    #ia, #livro, #teste, #desemp{
+        height: auto;
+        width: 6vw;
+    }
+    /*Main dos itens*/
+
+    /*Main dos CF*/
+    #sect2{
+        flex-wrap: wrap;
+        background-color: #f5fff6; 
+        border: 1px solid black;
+        gap: 5px;
+    }
+
+    .sect2h1{
+        border-bottom: 2px solid greenyellow; 
+        color: rgb(72, 117, 107); 
+        justify-items: center;
+        font-size: 17pt;
+        height: auto;
+    }
+
+    .como{
+        width: 40%;
+        border-radius: 10px;
+        transition: all 1s;
+        gap: 10px;
+        font-size: 10pt;
+        border: 1px solid black;
+        background-color: transparent;
+        color: black;
+        height: auto;
+    }
+
+    .funciona{
+        background-color: white;
+        width: 20%;
+        height: auto;
+    }
+
+    #criar{
+        border: 1px solid rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 12px;
+        width: 20%;
+        height: auto;
+    }
+
+    #progresso{
+        background-color: white;
+        height: 1vh;
+        width: auto;
+        border: 1px solid black;
+        width: 20%;
+        height: auto;
+    }
+    /*Main dos CF*/
+
+    header nav, .btn2{
+        display: none;
+    }
+
+    #perfil{
+        margin-right: 50px;
+    }
+
+        footer{
+        justify-content: space-around;
+        display: flex;
+        gap: 20px;
+        padding: 30px; 
+        background-color: #567e89;
+        color: white;
+    }
+
+    .logof{
+        width: 2vw;
+        display: flex;
+        margin-top: -5vh;
+        align-items: center;
+        
+    }
+
+    #folha{
+        width: 60px;
+        margin-left: -12px;
+        margin-top: 50px;
+    }
+
+    footer h1{
+        visibility: hidden;
+    }
+
+    #insta, #yt, #email{
+        display: none;
+    }
+}
+
+/* TABLET */
+@media (max-width: 768px){
+    /*Main do Chat*/
+    
+    .TX{
+        position: absolute;
+        font-size: 10pt;
+        margin: 8vh 3vw;
+        z-index: 1;
+        color: rgb(47, 71, 65);
+    }
+    #chat{
+        position: absolute;
+        width: 30vw;
+        max-width: 55vw;
+        height: auto;
+        margin: 4vh 49vw;
+        border-radius: 40px;
+        border: 2px solid rgb(0, 0, 0);
+        z-index: 1;
+    }
+
+    .botões{
+        position: absolute;
+        justify-items: center;
+        display: flex;
+        z-index: 1;
+        margin-left: 3vw;
+        margin-top: 24vh;
+        gap: 3vw;
+        font-size: 10pt;
+        background-color: transparent;
+    }
+
+    .btn{
+        border-radius: 12px;
+        padding: 1vh 10px;
+        background-color: rgb(92, 206, 111);
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    .btn:hover{
+        box-shadow: 0px 0px 50px rgb(39, 255, 50);
+        transition: 0.5s;
+    }
+    /*Main do chat*/
+
+
+    /*Main dos itens*/
+    .BLC{
+        border: 1px solid black;
+        border-radius: 10px;
+        transition: all 1s;
+        margin: 10px;
+        font-size: 10pt;
+        text-align: center;
+        background-color: white;
+        color: black;
+        width: 45%;
+    }
+
+    #sect{
+        flex-wrap: wrap;
+        background-color: #f5fff6; 
+        padding: 10px; 
+        border: 1px solid black;
+    }
+
+    #ia, #livro, #teste, #desemp{
+        height: auto;
+        width: 6vw;
+    }
+    /*Main dos itens*/
+
+    /*Main dos CF*/
+    #sect2{
+        flex-wrap: wrap;
+        background-color: #f5fff6; 
+        border: 1px solid black;
+        gap: 5px;
+    }
+
+    .sect2h1{
+        border-bottom: 2px solid greenyellow; 
+        color: rgb(72, 117, 107); 
+        justify-items: center;
+        font-size: 15pt;
+        height: auto;
+    }
+
+    .como{
+        width: 40%;
+        border-radius: 10px;
+        transition: all 1s;
+        gap: 10px;
+        font-size: 10pt;
+        border: 1px solid black;
+        background-color: transparent;
+        color: black;
+        height: auto;
+    }
+
+    .funciona{
+        background-color: white;
+        width: 20%;
+        height: auto;
+    }
+
+    #criar{
+        border: 1px solid rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 12px;
+        width: 20%;
+        height: auto;
+    }
+
+    #progresso{
+        background-color: white;
+        height: 1vh;
+        width: auto;
+        border: 1px solid black;
+        width: 20%;
+        height: auto;
+    }
+    /*Main dos CF*/
+
+    header nav, .btn2{
+        display: none;
+    }
+
+    #perfil{
+        margin-right: 50px;
+    }
+
+        footer{
+        justify-content: space-around;
+        display: flex;
+        gap: 20px;
+        padding: 30px; 
+        background-color: #567e89;
+        color: white;
+    }
+
+    .logof{
+        width: 2vw;
+        display: flex;
+        margin-top: -5vh;
+        align-items: center;
+        
+    }
+
+    #folha{
+        width: 60px;
+        margin-left: -12px;
+        margin-top: 50px;
+    }
+
+    footer h1{
+        visibility: hidden;
+    }
+
+    #insta, #yt, #email{
+        display: none;
+    }
+}
+
+@media (min-width: 374px) and (max-width: 480px){
+    /*Main do Chat*/
+    .TX{
+        position: absolute;
+        font-size: 4pt;
+        margin: 4.5vh 3vw;        
+        z-index: 1;
+        color: rgb(47, 71, 65);
+    }
+
+
+
+    #chat{
+        position: absolute;
+        width: 20vw;
+        height: auto;
+        margin: 3.5vh 50vw;
+        border-radius: 10px;
+        border: 1px solid rgb(0, 0, 0);
+        z-index: 1;
+    }
+
+    .botões{
+        position: absolute;
+        justify-items: center;
+        display: flex;
+        z-index: 1;
+        margin-left: 2vw;
+        margin-top: 11.9vh;
+        gap: 2vw;
+        font-size: 4pt;
+        background-color: transparent;
+    }
+
+    .btn{
+        border-radius: 12px;
+        padding: 2px 5px;
+        background-color: rgb(92, 206, 111);
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    .btn:hover{
+        box-shadow: 0px 0px 10px rgb(39, 255, 50);
+        transition: 0.5s;
+    }
+    /*Main do chat*/
+
+
+    /*Main dos itens*/
+    .BLC{
+        border: 1px solid black;
+        border-radius: 10px;
+        transition: all 1s;
+        margin: 2px;
+        font-size: 4pt;
+        text-align: center;
+        background-color: white;
+        color: black;
+        width: 20%;
+    }
+
+    #sect{
+        flex-wrap: wrap;
+        background-color: #f5fff6; 
+        padding: 5px; 
+        border: 1px solid black;
+    }
+
+    #ia, #livro, #teste, #desemp{
+        height: auto;
+        width: 4vw;
+    }
+    /*Main dos itens*/
+
+    /*Main dos CF*/
+    #sect2{
+        flex-wrap: wrap;
+        background-color: #f5fff6; 
+        border: 1px solid black;
+        gap: 5px;
+    }
+
+    .sect2h1{
+        border-bottom: 2px solid greenyellow; 
+        color: rgb(72, 117, 107); 
+        justify-items: center;
+        font-size: 17pt;
+        height: auto;
+    }
+
+    .como{
+        width: 40%;
+        border-radius: 10px;
+        transition: all 1s;
+        gap: 10px;
+        font-size: 10pt;
+        border: 1px solid black;
+        background-color: transparent;
+        color: black;
+        height: auto;
+    }
+
+    .funciona{
+        background-color: white;
+        width: 20%;
+        height: auto;
+    }
+
+    #criar{
+        border: 1px solid rgb(0, 0, 0);
+        background-color: white;
+        border-radius: 12px;
+        width: 20%;
+        height: auto;
+    }
+
+    #progresso{
+        background-color: white;
+        height: 1vh;
+        width: auto;
+        border: 1px solid black;
+        width: 20%;
+        height: auto;
+    }
+    /*Main dos CF*/
+
+    header nav, .btn2{
+        display: none;
+    }
+
+    #perfil{
+        margin-right: 50px;
+    }
+
+        footer{
+        justify-content: space-around;
+        display: flex;
+        gap: 20px;
+        padding: 30px; 
+        background-color: #567e89;
+        color: white;
+    }
+
+    .logof{
+        width: 2vw;
+        display: flex;
+        margin-top: -5vh;
+        align-items: center;
+        
+    }
+
+    #folha{
+        width: 60px;
+        margin-left: -12px;
+        margin-top: 50px;
+    }
+
+    footer h1{
+        visibility: hidden;
+    }
+
+    #insta, #yt, #email{
+        display: none;
+    }
+}
+
+
+
+
+/* Celular pequeno 
+@media (max-width: 480px)*/
+
+/* Tablet
+@media (max-width: 1024px)*/
