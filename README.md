@@ -30,9 +30,9 @@ https://typebot.co/kimberly-dvpdvs2
 # Equipe Carbolab
 | Integrante | Função | GitHub |
 |---|---|---|
-| Arthur Rodrigues | Desenvolvimento Front-end, testes e documentação | Sem GitHub informado |
+| Arthur Rodrigues | Desenvolvimento Front-end, testes e documentação | [@Thurlx09](https://github.com/Thurlx09) |
 | Caio Vinícius | Desenvolvimento Front-end, testes e documentação | [@caiox67](https://github.com/caiox67) |
-| Leandro Devon | Suporte e integração | Sem GitHub informado |
+| Leandro Devon | Suporte e integração | [@leo2008devon](https://github.com/leo2008devon) |
 | Luan de Santana | Desenvolvimento Front-end | [@LuanF12](https://github.com/LuanF12) |
 | Pietra Sobral | Desenvolvimento Front-end, testes e documentação | [@pietralindabk](https://github.com/pietralindabk) |
 | Talysson Alves | Design UX/UI | Sem GitHub informado |
