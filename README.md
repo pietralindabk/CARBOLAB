@@ -20,3 +20,5 @@ O CARBOLAB é uma plataforma educacional desenvolvida para apresentar a assisten
 | JavaScript | Interatividade e dinamismo |
 | Typebot | Integração do chatbot |
 | GitHub Pages | Hospedagem do projeto |
+
+# Como Acessar
